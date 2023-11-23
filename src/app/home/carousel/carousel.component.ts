@@ -4,8 +4,6 @@ import { CarouselService } from '../service/carousel.service';
 
 @Component({
   selector: 'app-carousel',
-  standalone: true,
-  imports: [CommonModule, CarouselComponent],
   templateUrl: './carousel.component.html',
   styleUrl: './carousel.component.css'
 })
